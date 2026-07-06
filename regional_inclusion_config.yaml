@@ -1,0 +1,26 @@
+author: Sagnik Patra
+best_model: Linear Regression
+features:
+- District_Encoded
+- Percentage of Scheduled Caste Population _2001_Rural
+- Percentage of Scheduled Caste Population _2001_Urban
+- Percentage of Scheduled Caste Population _2001_Total
+- Percentage of Scheduled Caste Population _2011_Rural
+- Percentage of Scheduled Caste Population _2011_Urban
+- Rural_Growth
+- Urban_Growth
+- Total_Growth
+- Rural_Urban_Gap_2001
+- Rural_Urban_Gap_2011
+- Average_SC_Percentage
+- Priority_Score
+model_type: Regression
+outputs:
+  h5: C:\Users\NXTWAVE\Downloads\Regional Inclusion Analysis System\regional_inclusion_model.h5
+  json: C:\Users\NXTWAVE\Downloads\Regional Inclusion Analysis System\regional_inclusion_results.json
+  pkl: C:\Users\NXTWAVE\Downloads\Regional Inclusion Analysis System\regional_inclusion_model.pkl
+  prediction_csv: C:\Users\NXTWAVE\Downloads\Regional Inclusion Analysis System\regional_inclusion_prediction.csv
+  result_csv: C:\Users\NXTWAVE\Downloads\Regional Inclusion Analysis System\regional_inclusion_result.csv
+  yaml: C:\Users\NXTWAVE\Downloads\Regional Inclusion Analysis System\regional_inclusion_config.yaml
+project: Smart Regional Inclusion Analysis System
+target: Percentage of Scheduled Caste Population _2011_Total

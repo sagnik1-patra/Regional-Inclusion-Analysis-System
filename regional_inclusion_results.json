@@ -1,0 +1,63 @@
+{
+    "project_name": "Smart Regional Inclusion Analysis System",
+    "author": "Sagnik Patra",
+    "dataset_path": "C:\\Users\\NXTWAVE\\Downloads\\Regional Inclusion Analysis System\\Percentage_of_Scheduled_Caste_Population_to_Total_Population.csv",
+    "output_directory": "C:\\Users\\NXTWAVE\\Downloads\\Regional Inclusion Analysis System",
+    "target_column": "Percentage of Scheduled Caste Population _2011_Total",
+    "feature_columns": [
+        "District_Encoded",
+        "Percentage of Scheduled Caste Population _2001_Rural",
+        "Percentage of Scheduled Caste Population _2001_Urban",
+        "Percentage of Scheduled Caste Population _2001_Total",
+        "Percentage of Scheduled Caste Population _2011_Rural",
+        "Percentage of Scheduled Caste Population _2011_Urban",
+        "Rural_Growth",
+        "Urban_Growth",
+        "Total_Growth",
+        "Rural_Urban_Gap_2001",
+        "Rural_Urban_Gap_2011",
+        "Average_SC_Percentage",
+        "Priority_Score"
+    ],
+    "best_model": "Linear Regression",
+    "model_results": [
+        {
+            "Model": "Linear Regression",
+            "MAE": 1.4867334416719489e-15,
+            "MSE": 8.077249703458621e-30,
+            "RMSE": 2.8420502640626574e-15,
+            "R2_Score": 1.0,
+            "Accuracy_Percentage": 100.0
+        },
+        {
+            "Model": "Random Forest",
+            "MAE": 0.6659141304347849,
+            "MSE": 1.278744877228255,
+            "RMSE": 1.1308160227146833,
+            "R2_Score": 0.9747343528541136,
+            "Accuracy_Percentage": 97.47343528541136
+        },
+        {
+            "Model": "Gradient Boosting",
+            "MAE": 0.6099896660808735,
+            "MSE": 1.2747443367130442,
+            "RMSE": 1.1290457637815414,
+            "R2_Score": 0.9748133961776491,
+            "Accuracy_Percentage": 97.4813396177649
+        },
+        {
+            "Model": "Deep Learning",
+            "MAE": 0.818843003148618,
+            "MSE": 3.2317385244154764,
+            "RMSE": 1.7977036809261633,
+            "R2_Score": 0.9361467899659283,
+            "Accuracy_Percentage": 93.61467899659283
+        }
+    ],
+    "files_saved": {
+        "h5_model": "C:\\Users\\NXTWAVE\\Downloads\\Regional Inclusion Analysis System\\regional_inclusion_model.h5",
+        "pkl_model": "C:\\Users\\NXTWAVE\\Downloads\\Regional Inclusion Analysis System\\regional_inclusion_model.pkl",
+        "result_csv": "C:\\Users\\NXTWAVE\\Downloads\\Regional Inclusion Analysis System\\regional_inclusion_result.csv",
+        "prediction_csv": "C:\\Users\\NXTWAVE\\Downloads\\Regional Inclusion Analysis System\\regional_inclusion_prediction.csv"
+    }
+}
