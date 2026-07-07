@@ -1,4 +1,4 @@
-# Smart Regional Inclusion Analysis System using Artificial Immune System (AIS)
+# Smart Regional Inclusion Analysis System using Artificial Immune System (AIS) 
 
 ## Overview
 
